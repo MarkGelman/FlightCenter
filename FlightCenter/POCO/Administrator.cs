@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlightCenter
 {
-    class Administrator:IPoco
+    class Administrator:IPoco,IUser
     {
         long Id { get; set; }
         string FirstName { get; set; }

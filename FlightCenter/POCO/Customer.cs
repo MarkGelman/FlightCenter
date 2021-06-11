@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlightCenter.POCO
 {
-    class Customer
+    class Customer:IPoco,IUser
     {
         long Id { get; set; }
         string FirstName { get; set; }

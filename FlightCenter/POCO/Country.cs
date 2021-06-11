@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlightCenter.POCO
 {
-    class Country
+    class Country:IPoco
     {
         long Id { get; set; }
         string Name { get; set; }

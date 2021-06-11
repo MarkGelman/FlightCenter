@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlightCenter.POCO
 {
-    class Ticket
+    class Ticket:IPoco
     {
         long Id { get; set; }
         long FlightId { get; set; }

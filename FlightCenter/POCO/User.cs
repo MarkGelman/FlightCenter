@@ -4,11 +4,11 @@ using System.Text;
 
 namespace FlightCenter.POCO
 {
-    class User
+    class User:IPoco
     {
         long Id { get; set; }
         string UserName { get; set; }
-        string Password { get; set; }
+        string Password { get; set; }   
         string Email { get; set; }
         long UserRoleId { get; set; }
 

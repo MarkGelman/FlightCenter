@@ -1,3 +1,8 @@
 1. Зачем нужен IPoco и IUser?
 2. Как отличить проэкт .NET Core от FRAMEWORK
 3. Нужен ли ID в конструкторе с параметрами класса POCO 
+4. Зачем нужны интерфейсы поля в LoginService
+5. Почему LoginToken class generic
+6. Нужно ли поле IUserDAO в LoginService
+7. Объяснить снова Log4net
+8. Oбъяснить для чего нужен вообще LoginToken
